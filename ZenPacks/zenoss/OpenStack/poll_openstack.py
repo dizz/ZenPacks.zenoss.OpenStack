@@ -21,6 +21,7 @@ addLocalLibPath()
 from novaclient.v1_0.client import Client as v1_0_Client
 from novaclient.v1_1.client import Client as v1_1_Client
 
+#just a test
 
 class OpenStackPoller(object):
     def __init__(self, username, api_key, project_id, auth_url, region_name):
